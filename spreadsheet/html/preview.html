@@ -1,0 +1,46 @@
+<!--
+Copyright 2016, Google Inc. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('stylesheet'); ?>
+  </head>
+  <body>
+    <div class="scale">
+        <div style="width: 360px; background-color: #f2f2f2; padding-bottom: 12px; padding-top: 12px">
+          <div class="pc-preview layout-column">
+            <h2><img src="https://developers.google.com/adwords/api/images/wta.png"></h2>
+            <h3>
+              <a target="_blank" href="[finalUrl]">
+                <span>[headline1]</span>
+                <span>- [headline2]</span>
+              </a>
+            </h3>
+            <div class="pc-optimizer-ads-visurl">
+              <span class="pc-optimizer-ads-badge">Ad</span>
+              <cite>[displayUrl]</cite>
+            </div>
+            <div class="pc-optimizer-ads-separator"></div>
+            <div class="pc-optimizer-ads-creative">
+              <span>[description]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <?!= include('javascript'); ?>
+  </body>
+</html>
